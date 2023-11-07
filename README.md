@@ -1,10 +1,12 @@
-# NASM Assembly Project
+# Bubble Sort
 
-A Codepsaces template for building, running, and debugging projects in
-NASM assembly and C.
+The project includes the bubble sort algorithm written in C as three
+distinct functions:
+- *bubblesort* - Carries out the bubble sort algorithm by calling function
+*bubblepass* the required number of times.
+- *bubblepass* - Carries out a single bubble pass, examining each pair of
+adjacent elements of the array and swapping them if not in order.
+- *swap* - Receives two pointers to *int*'s and swaps their values.
 
-Intended for a course in *Computer Organization*, this template includes a
-task for building an assembly file project potentially using a mix of NASM
-assembly and C. When building a project, all assembly and C source files are
-assembled/compiled seperately, then are linked with the C library to build
-the executable.
+For this exercise, replace the three C functions mentioned above with
+assembly implementations.
